@@ -54,6 +54,7 @@ h1, h2 { font-family: inherit; font-weight: 600; }
 .page-heading .eyebrow { color: var(--duke); }
 .research-group { border-top: 1px solid var(--line); padding: 32px 0 80px; }
 .paper { max-width: 930px; }
+.paper + .paper { margin-top: 48px; padding-top: 40px; border-top: 1px solid var(--line); }
 .paper h2 { margin: 0 0 10px; font-size: clamp(1.7rem, 2.8vw, 2.35rem); line-height: 1.18; }
 .paper p { max-width: 720px; color: #52616b; line-height: 1.65; }
 .paper .venue { color: var(--duke); font-size: 1.08rem; font-weight: 600; }
